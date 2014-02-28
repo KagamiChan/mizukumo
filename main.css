@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-size:15px;
+    color:#333333;
+    font-family:'Open Sans','Hiragino Sans GB','冬青黑体简体中文 W3','Microsoft Yahei UI','Microsoft Yahei',sans-serif;
+    margin:0;
+    padding: 0;
+}
+div,ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+img.bg-max-image{
+    position: fixed important!;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    height: 90px;
+    width: 528px;
+    z-index: 100;
+}
+
+#wrapper {
+    margin: 0 auto;
+    z-index: 5;
+    width: 700px;
+}
+
+#menu {
+    display: block;
+    position: fixed;
+    text-align: center;
+    width: 528px;
+}
+
+#menu ul{
+    margin: 20px auto;
+    text-align: center;
+}
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    text-indent: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul li a{
+    height: 55px;
+    display: block;
+    background-image: url('assets/menu.png');
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    transition:all 0.25s;
+    -moz-transition:all 0.25s; 
+    -webkit-transition:all 0.25s; 
+    -o-transition:all 0.25s; 
+}
+
+#menu ul li a:hover{
+    background-color: #b3d465;
+
+}
+
+.menu-home a{
+    width: 137px;
+}
+
+.menu-blog a{
+    width: 121px;
+    background-position: -137px;
+}
+
+.menu-proj a{
+    width: 175px;
+    background-position: -256px;
+}
+
+.menu-me a{
+    width: 94px;
+    background-position: -433px;
+}
+
+h1 {
+    margin: 0 auto;
+    display: block;
+    width: 379px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url('assets/title.png');
+    z-index: 0;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+h2{
+    margin: 20px 0 0 0;
+    display: block;
+    background-color: #f8b551;
+
+    color: #fff;
+    padding: 2px 0 2px 0px;
+    text-indent: 1em;
+    font-style: normal;
+}
+
+copyright {
+    display: block;
+    text-align: center;
+}
+
+.entry-container {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+
+.entry{
+    list-style: none;
+}
