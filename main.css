@@ -2,13 +2,14 @@ html {
     height: 100%;
 }
 
-body{
+body,a{
     height: 100%;
     font-size:15px;
     color:#333333;
     font-family:'Open Sans','Hiragino Sans GB','冬青黑体简体中文 W3','Microsoft Yahei UI','Microsoft Yahei',sans-serif;
     margin:0;
     padding: 0;
+    text-decoration: none;
 }
 div,ul{
     display: block;
@@ -130,11 +131,17 @@ copyright {
 }
 
 .entry-container {
-    background-color: #f1f1f1;
     padding: 0;
     margin: 0;
+    height: 500px;
 }
 
 .entry{
-    list-style: none;
+    width: 320px;
+    height: 120px;
+    margin: 10px;
+    padding: 4px;
+    float: left;
+    border: 1px #bebebe solid;
+    background-color: #f1f1f1;
 }
