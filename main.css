@@ -22,7 +22,10 @@ div,ul{
     margin: 0;
 }
 
-
+p {
+    margin: 0;
+    padding: 0;
+}
 
 
 #container {
@@ -163,6 +166,9 @@ copyright {
     -moz-transition:all 0.25s; 
     -webkit-transition:all 0.25s; 
     -o-transition:all 0.25s; 
+
+    overflow: hidden;
+
 
 }
 
