@@ -117,8 +117,8 @@ div,ul{
 h1 {
     margin: 0 auto;
     display: block;
-    width: 379px;
-    height: 300px;
+    width: 450px;
+    height: 200px;
     background-repeat: no-repeat;
     background-image: url('assets/title.png');
     text-indent: -999px;
@@ -129,9 +129,9 @@ h1 {
 h2{
     margin: 20px 0 0 0;
     display: block;
-    background-color: #f8b551;
+    /*background-color: #b3d465;*/
 
-    color: #fff;
+    /*color: #fff;*/
     padding: 2px 0 2px 0px;
     text-indent: 1em;
     font-style: normal;
@@ -145,15 +145,41 @@ copyright {
 .entry-container {
     padding: 0;
     margin: 0;
-    height: 500px;
+    height: 350px;
 }
 
 .entry{
     width: 320px;
     height: 120px;
-    margin: 10px;
-    padding: 4px;
+    margin: 8px;
+    padding: 10px 5px 0px 5px;
     float: left;
-    border: 1px #bebebe solid;
-    background-color: #f1f1f1;
+    border: none;
+    /*background-color: #fff;*/
+    background-image:url('assets/h3card.png');
+    background-repeat: no-repeat;
+
+    transition:all 0.25s;
+    -moz-transition:all 0.25s; 
+    -webkit-transition:all 0.25s; 
+    -o-transition:all 0.25s; 
+
+}
+
+.entry:hover{
+    opacity:0.8;
+    background-color: #fff;
+}
+
+h3{
+    padding:0;
+    margin:0;
+    font-size:20px;
+    background-color: #b3d465;
+    height: 30px;
+    width: 100%;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap; 
 }
